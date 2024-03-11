@@ -1,0 +1,36 @@
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.result {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.result__txt--correct {
+    color: red;
+}
+
+.result__txt--incorrect {
+    color: blue;
+}
+
+.heading,
+.status-code-table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.status-code-table th,
+.status-code-table td {
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.status-code-table th {
+    width: 20%;
+    background: #ddd;
+}

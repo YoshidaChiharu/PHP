@@ -1,0 +1,33 @@
+.container {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.search__select-box {
+    width: 300px;
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+}
+
+.search__submit-btn {
+    padding: 10px 40px;
+    color: #fff;
+    background: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

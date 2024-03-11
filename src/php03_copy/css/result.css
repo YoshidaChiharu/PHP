@@ -1,0 +1,46 @@
+.container {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+.result-cards {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.result-card {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+}
+
+.result-card__img-wrapper {
+    width: 100%;
+    padding-top: 67%;
+    position: relative;
+}
+
+.result-card__img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.result-card__body {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-card__city,
+.result-card__time {
+    margin: 0;
+    font-size: 18px;
+}

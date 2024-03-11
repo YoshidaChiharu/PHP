@@ -1,0 +1,12 @@
+code	meaning	description
+102	Processing	処理中である
+200	OK	リクエストが正常に成功できた
+301	Moved	リクエストしたリソースが恒久的に移動されている
+304	Not Modified	リクエストしたリソースは更新されていない
+400	Bad Request	クライアントのリクエストに異常がある
+401	Unauthorized	アクセストークンが無効なときや、認証がされていない
+403	Forbidden	閲覧権限が無いファイルやフォルダである
+404	Not found	Webページが見つからない
+500	Internal Server Erro	何らかのサーバ内でエラーが起きた
+502	Bad Gateway	サーバーがリクエストに満たすのに必要な機能をサポートしていない
+503	Sercd..vice Unavailable	一時的にサーバにアクセスが出来ない

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHPデータ受け渡し学習</title>
+</head>
+<body>
+    <head></head>
+    <main>
+        <p>◆ POSTで会社名を受け取る ◆</p>
+        <hr>
+        <!-- <form action="course.php" method="POST"> -->
+        <form action="course.php" method="GET">
+            <p>
+                <label for="company-name">会社名：</label>
+                <input type="text" id="company-name" name="company-name">
+            </p>
+            <input type="submit" name="submit" value="送信する">
+        </form>
+        <hr>
+    </main>
+    <footer></footer>
+</body>
+</html>

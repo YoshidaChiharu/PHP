@@ -1,0 +1,51 @@
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.question,
+.answer {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.question {
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    background: black;
+}
+
+.answer__form {
+    margin-top: 15px;
+}
+
+.check-label {
+    padding: 16px 0;
+    margin-bottom: 4px;
+    border: solid 1px #ddd;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+.check-label:hover {
+    background: #ddd;
+}
+.check-item:checked + label {
+    background: #59c9ac;
+}
+
+.check-item {
+    display: none;
+}
+
+.answer__submit-button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0;
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+}

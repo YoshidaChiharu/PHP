@@ -1,0 +1,16 @@
+header {
+    background: black;
+}
+
+.header-inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    width: 1230px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
